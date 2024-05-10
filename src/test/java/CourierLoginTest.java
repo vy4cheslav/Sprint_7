@@ -4,12 +4,11 @@ import courier.CourierClient;
 import courier.CourierCredentials;
 import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
-import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
 import org.junit.Test;
 
-import static Config.Constants.*;
+import static config.Constants.*;
 import static java.net.HttpURLConnection.*;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.junit.Assert.assertNotEquals;

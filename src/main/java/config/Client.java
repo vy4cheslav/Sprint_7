@@ -1,9 +1,9 @@
-package Config;
+package config;
 
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 
-import static Config.Constants.*;
+import static config.Constants.*;
 import static io.restassured.RestAssured.given;
 
 public class Client {

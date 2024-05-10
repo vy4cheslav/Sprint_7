@@ -3,7 +3,7 @@ package orders;
 import java.util.List;
 
 
-import static Config.Constants.*;
+import static config.Constants.*;
 
 
 public class Order {

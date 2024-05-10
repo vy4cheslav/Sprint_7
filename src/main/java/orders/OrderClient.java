@@ -1,11 +1,11 @@
 package orders;
 
-import Config.Client;
+import config.Client;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 
-import static Config.Constants.ORDER_CANCEL_PATH;
-import static Config.Constants.ORDER_PATH;
+import static config.Constants.ORDER_CANCEL_PATH;
+import static config.Constants.ORDER_PATH;
 
 public class OrderClient extends Client {
 

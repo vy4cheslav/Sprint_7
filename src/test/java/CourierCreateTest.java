@@ -10,7 +10,7 @@ import org.junit.Test;
 
 import java.net.HttpURLConnection;
 
-import static Config.Constants.*;
+import static config.Constants.*;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertNotEquals;

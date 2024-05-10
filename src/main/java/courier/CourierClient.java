@@ -1,9 +1,9 @@
 package courier;
 
-import Config.Client;
+import config.Client;
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
-import static Config.Constants.*;
+import static config.Constants.*;
 import java.util.Map;
 
 public class CourierClient extends Client {
