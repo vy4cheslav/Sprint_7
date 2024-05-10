@@ -32,7 +32,7 @@ public class OrderClient extends Client {
         return spec()
                 .body(track)
                 .when()
-                .put(ORDER_CANCEL_PATH)
+                .delete(ORDER_CANCEL_PATH)
                 .then();
     }
 }
